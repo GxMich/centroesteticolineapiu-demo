@@ -8,38 +8,38 @@ web
 
 ## Stack
 
-Delegated: static HTML, CSS, and JavaScript for a lightweight landing page; prepared for Vercel deployment.
+Static HTML, CSS and JavaScript; prepared for Vercel deployment.
 
 ## Users
 
-People in the Novara area arriving from Facebook or Instagram ads and considering facial care.
+People in the Novara area arriving from Facebook or Instagram ads and considering the current anti-age promotion.
 
 ## Product Purpose
 
-A single-page campaign demo that explains a sample 20% facial-care offer and makes it easy to ask Centro Estetico Linea Più for information or availability. Success means a visitor can understand the offer and initiate contact; the page does not confirm an appointment.
+A mobile-first campaign landing page that explains Centro Estetico Linea Più’s Esosomic promotion and directs visitors to its B-Vanity booking portal or phone contact.
 
 ## Positioning
 
-An unofficial campaign concept by Michele Modica, not an official page or claimed collaboration. The discount is illustrative and must be confirmed with the center.
+An offer page for the promotion currently listed on the center’s official website. The campaign is time-limited; the official page states “fino al 31 ottobre” without a year. Confirm the current validity, final price, availability and terms before publishing or reusing the page.
 
 ## Capabilities and Constraints
 
-- Responsive social campaign landing page with a direct, configurable phone or WhatsApp contact action, optional verified booking-system link, FAQ, and mobile sticky CTA.
-- No invented service details, prices, deadlines, outcomes, reviews, or offer terms.
-- No automatic messages, ad tracking, or nonessential cookies.
-- Business contact details and booking link were verified on the business's public website on 2026-10-22. Offer terms remain unverified.
+- Responsive campaign landing page with offer details, verified phone contact, online booking link, FAQ and mobile sticky booking CTA.
+- The listed promotion includes an in-center Esosomic facial treatment and at-home skincare with Crema A and Siero B; the listed discount is 20% through October 31.
+- Do not invent price, eligibility, detailed terms, outcomes, or reviews.
+- No automatic messages, ad tracking or nonessential cookies.
+- The public Estetica mobile is linked to WhatsApp for campaign questions; confirm that WhatsApp is active on that number before publication.
 
 ## Brand Commitments
 
-Use the name Centro Estetico Linea Più and location Novara. The requested direction is luxury beauty editorial with warm ivory, sage, forest green, blush, editorial serif display type, and clean sans-serif body type.
+Use Centro Estetico Linea Piu and Novara. Use neutral chalk, charcoal, and one burgundy accent. Pair Bodoni Moda headings with Manrope body text. Prioritize editorial facial-care photography, the actual offer, and direct phone or WhatsApp contact.
 
 ## Evidence on Hand
 
-The official site identifies the Novara location, contact details, and a link to its B-Vanity booking system. No evidence was supplied for the specific 20% offer or its conditions. Do not add testimonials or guaranteed results.
+The official website lists the Esosomic in-center treatment with Crema A and Siero B for at-home skincare, a 20% promotion, and the phrase “fino al 31 ottobre.” It provides the address, phone number, email and B-Vanity booking link. The page does not show the final price, detailed conditions or expiry year.
 
 ## Product Principles
 
-- Make the offer and contact action clear on a phone.
-- Describe care and well-being without clinical claims or guaranteed results.
-- Distinguish a request for information from a confirmed appointment.
-- Keep campaign and contact settings quick to reuse.
+- Make the offer and booking action clear on a phone.
+- Distinguish listed details from information that must be confirmed with the center.
+- Keep campaign and contact settings quick to update.

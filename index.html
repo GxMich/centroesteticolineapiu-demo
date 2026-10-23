@@ -3,112 +3,120 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f4ef">
-  <meta name="description" content="Demo non ufficiale per una campagna social di Centro Estetico Linea Più a Novara. Proposta esemplificativa: 20% sui trattamenti viso, condizioni da confermare.">
+  <meta name="theme-color" content="#f7f7f3">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Scopri la proposta anti-age Esosomic di Linea Pi&ugrave; a Novara: trattamento in istituto e skincare a casa. Chiedi al centro prezzo, validit&agrave; e disponibilit&agrave;.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
-  <meta property="og:title" content="Un momento per il tuo viso — Linea Più, Novara">
-  <meta property="og:description" content="Una proposta dimostrativa per i trattamenti viso. Chiedi informazioni al centro: sconto e condizioni da confermare.">
-  <meta property="og:image" content="assets/viso-editoriale.webp">
+  <meta property="og:title" content="Esosomic, il tuo viso al centro | Linea Pi&ugrave; Novara">
+  <meta property="og:description" content="Trattamento in istituto e skincare domiciliare con Crema A e Siero B. Contatta Linea Pi&ugrave; per i dettagli della promozione.">
+  <meta property="og:image" content="assets/promo-antiage.webp">
   <meta name="color-scheme" content="light">
-  <title>Un momento per il tuo viso — Linea Più, Novara</title>
+  <title>Esosomic, il tuo viso al centro | Linea Pi&ugrave; Novara</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/viso-editoriale.webp" type="image/webp" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/facial-ritual-v3.webp" imagesrcset="assets/facial-ritual-v3-small.webp 640w, assets/facial-ritual-v3.webp 1024w" imagesizes="(max-width: 760px) 100vw, 54vw" fetchpriority="high">
   <link rel="stylesheet" href="styles.css">
-  <script>document.documentElement.classList.add('js');</script>
   <script src="config.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenuto">Vai al contenuto</a>
-  <div class="demo-ribbon" role="note">Proposta demo non ufficiale <span>·</span> sconto e condizioni da confermare con il centro</div>
-  <header class="site-header">
-    <a class="wordmark" data-wordmark href="#inizio" aria-label="Centro Estetico Linea Più, inizio pagina">
-      <span data-brand>LINEA PIÙ</span><small>Centro estetico <i>·</i> <span data-location>Novara</span></small>
+  <header class="site-header container">
+    <a class="wordmark" data-wordmark href="#inizio" aria-label="Centro Estetico Linea Pi&ugrave;, inizio">
+      <span class="wordmark-name">linea pi&ugrave;</span>
+      <span class="wordmark-description">Centro estetico a <span data-location>Novara</span></span>
     </a>
-        <a class="header-call" data-contact data-contact-label="short" href="tel:+390321629807" aria-label="Chiama il centro per informazioni">Chiama <span aria-hidden="true">↗</span></a>
+    <nav class="site-nav" aria-label="Navigazione principale">
+      <a href="#proposta">La promozione</a>
+      <a href="#domande">Le informazioni</a>
+      <a href="#prenota">Contatti</a>
+    </nav>
+    <a class="header-contact" data-whatsapp href="https://wa.me/393806941236" target="_blank" rel="noopener noreferrer">WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/></svg></a>
   </header>
 
   <main id="contenuto">
-    <section class="hero" id="inizio" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <h1 id="hero-title" data-copy="heroTitle">Un momento<br>per il tuo viso.</h1>
-        <p class="hero-description" data-copy="heroDescription">A Novara, una proposta dimostrativa dedicata alla cura del viso e al benessere della pelle.</p>
-        <div class="hero-offer" aria-label="Sconto dimostrativo del 20 percento sui trattamenti viso">
-          <span class="offer-value">−<span data-discount>20</span><small>%</small></span>
-          <span class="offer-label">sui trattamenti viso</span>
+    <section class="hero container" id="inizio" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <div class="hero-copy">
+          <h1 id="hero-title">Il tuo viso,<br>al centro.</h1>
+          <p class="hero-description" data-copy="heroDescription">Il rituale anti-age Esosomic unisce il trattamento in istituto alla skincare a casa con Crema A e Siero B.</p>
+          <div class="hero-offer">
+            <p class="offer-line">La proposta Esosomic <strong>&minus;<span data-discount>20</span>%</strong></p>
+            <p class="offer-note">Prezzo e validit&agrave; della promozione da confermare con il centro.</p>
+          </div>
+          <div class="contact-actions hero-contact-actions" data-sticky-trigger>
+            <a class="button button-primary" data-whatsapp href="https://wa.me/393806941236" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/></svg><span class="label-long">Scrivi su WhatsApp</span><span class="label-short">WhatsApp</span></a>
+            <a class="button button-secondary" data-call href="tel:+390321629807"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 16.9-3.1-.4a2 2 0 0 0-1.7.6l-1.3 1.3a16 16 0 0 1-7.3-7.3l1.3-1.3a2 2 0 0 0 .6-1.7L10.1 5A2 2 0 0 0 8.1 3H5a2 2 0 0 0-2 2.2A19 19 0 0 0 18.8 21a2 2 0 0 0 2.2-2v-2.1Z"/></svg><span class="label-long">Chiama il centro</span><span class="label-short">Chiama</span></a>
+          </div>
+          <p class="hero-location"><span data-business>Centro Estetico Linea Pi&ugrave;</span>, <span data-location>Novara</span>.</p>
         </div>
-        <a class="button button-primary" data-contact data-contact-label="true" href="tel:+390321629807">Chiama per informazioni <span aria-hidden="true">↗</span></a>
-        <a class="booking-choice" data-booking href="https://app.b-vanity.com/booking/66a9f1733b8a283e4c4e7733/home" target="_blank" rel="noopener noreferrer">Preferisci fare da te? <strong>Consulta le prenotazioni online <span aria-hidden="true">↗</span></strong></a>
-        <p class="hero-reassurance">Al telefono puoi chiedere se la proposta è attiva e quali condizioni prevede.</p>
+        <figure class="hero-media">
+          <img data-image="hero" src="assets/facial-ritual-v3.webp" srcset="assets/facial-ritual-v3-small.webp 640w, assets/facial-ritual-v3.webp 1024w" sizes="(max-width: 760px) 100vw, 54vw" alt="Fotografia editoriale di una donna durante un massaggio del viso" width="1024" height="1536" fetchpriority="high">
+          <figcaption class="sr-only">Immagine illustrativa creata per questa proposta grafica.</figcaption>
+        </figure>
       </div>
-      <figure class="hero-visual">
-        <img data-image="hero" src="assets/viso-editoriale.webp" alt="Ritratto editoriale di una donna in un momento di cura personale" width="1122" height="1402" fetchpriority="high">
-        <span class="visual-seal" aria-hidden="true">Un tempo<br>per te</span>
+    </section>
+
+    <section class="promo-story container" id="proposta" aria-labelledby="promo-title">
+      <figure class="promo-image">
+        <img data-image="promotion" src="assets/promo-antiage.webp" alt="La creativit&agrave; ufficiale della promozione, con il trattamento Esosomic e i prodotti Crema A e Siero B" width="580" height="569" loading="lazy">
+        <figcaption>Trattamento e prodotti nella promozione ufficiale del centro.</figcaption>
       </figure>
-    </section>
-
-    <section class="offer-section" id="proposta" aria-labelledby="offer-title">
-      <div class="offer-number-block">
-        <span class="offer-big"><span class="offer-minus" aria-hidden="true">−</span><span data-discount>20</span><small>%</small></span>
+      <div class="promo-story-copy">
+        <h2 id="promo-title">La cura continua.</h2>
+        <p data-copy="offerDescription">La proposta pubblicata dal centro abbina il trattamento viso Esosomic alla skincare domiciliare.</p>
+        <div class="ritual-parts">
+          <div><h3>In istituto</h3><p>Il trattamento viso Esosomic.</p></div>
+          <div><h3>A casa</h3><p>Crema A e Siero B per continuare la skincare.</p></div>
+        </div>
+        <div class="promotion-details">
+          <p data-notice>Il sito ufficiale indica -20% fino al 31 ottobre, senza specificare l'anno. Chiedi conferma di validit&agrave;, prezzo e disponibilit&agrave;.</p>
+          <a href="https://www.centroesteticolineapiu.it/promozioni" target="_blank" rel="noopener noreferrer">Vedi la promozione sul sito del centro</a>
+        </div>
       </div>
-      <div class="offer-copy">
-        <h2 id="offer-title">Un invito a dedicarti<br>alla cura del viso.</h2>
-        <p data-copy="offerDescription">Chiama per verificare se la proposta è attiva, quali trattamenti include e come concordare un appuntamento.</p>
-        <p class="offer-conditions" data-notice>Demo non ufficiale: sconto, trattamenti inclusi, disponibilità e condizioni non sono confermati.</p>
-        <a class="button button-light offer-cta" data-contact data-contact-label="offer" href="tel:+390321629807">Verifica l’offerta <span aria-hidden="true">↗</span></a>
-        <a class="offer-booking" data-booking href="https://app.b-vanity.com/booking/66a9f1733b8a283e4c4e7733/home" target="_blank" rel="noopener noreferrer">Oppure consulta le prenotazioni online <span aria-hidden="true">↗</span></a>
-      </div>
     </section>
 
-    <section class="care-section" aria-labelledby="care-title">
-      <figure class="care-image">
-        <img data-image="ritual" src="assets/trattamento-editoriale.webp" alt="Primo piano editoriale di un gesto delicato di cura del viso" width="1100" height="825" loading="lazy">
-      </figure>
-      <div class="care-copy">
-        <h2 id="care-title">Cura della pelle</h2>
-        <p>Ogni percorso comincia da una conversazione. Puoi raccontare al centro cosa stai cercando e chiedere quali trattamenti viso e disponibilità sono attualmente proposti.</p>
-        <p>Nessuna promessa sui risultati: le informazioni sul trattamento e sulle condizioni vengono fornite direttamente dal centro.</p>
-        <a class="text-action" data-contact data-contact-label="true" href="tel:+390321629807">Parla con il centro <span aria-hidden="true">↗</span></a>
-      </div>
-      <span class="care-side-note" aria-hidden="true">Un gesto di cura, con calma</span>
-    </section>
-
-    <section class="steps-section" id="come-funziona" aria-labelledby="steps-title">
-      <div class="steps-heading"><h2 id="steps-title">Il prossimo passo</h2><p>Per ricevere informazioni o parlare di un appuntamento, il primo passo è diretto.</p></div>
-      <ol class="steps-list">
-        <li><div><h3>Scopri la proposta</h3><p>Lo sconto mostrato è un esempio promozionale da verificare.</p></div></li>
-        <li><div><h3>Contatta il centro</h3><p>Chiama per chiedere informazioni sui trattamenti viso.</p></div></li>
-        <li><div><h3>Concordate insieme</h3><p>Trattamento e disponibilità si definiscono con il centro.</p></div></li>
-      </ol>
-    </section>
-
-    <section class="faq-section" id="domande" aria-labelledby="faq-title">
-      <div class="faq-heading"><h2 id="faq-title">Domande<br>frequenti.</h2><p>Le risposte che possiamo darti in questa demo, con chiarezza.</p></div>
+    <section class="faq-section container" id="domande" aria-labelledby="faq-title">
+      <div class="faq-heading"><h2 id="faq-title">Prima di prenotare.</h2><p>Prezzo, validit&agrave; e modalit&agrave; di prenotazione.</p></div>
       <div class="faq-list">
-        <details><summary>Quali trattamenti sono inclusi nell’offerta?<span aria-hidden="true">＋</span></summary><p>I trattamenti inclusi non sono stati definiti per questa demo. Chiedi direttamente al centro quali servizi sono disponibili e a quali condizioni.</p></details>
-        <details><summary>Lo sconto del 20% è attivo?<span aria-hidden="true">＋</span></summary><p>No: è un esempio usato per presentare questa proposta di landing page. L’eventuale promozione deve essere confermata dal centro prima di pubblicare una campagna.</p></details>
-        <details><summary>La telefonata prenota un appuntamento?<span aria-hidden="true">＋</span></summary><p>No. La chiamata serve per chiedere informazioni. Un appuntamento è concordato direttamente con il centro e non viene confermato da questa pagina.</p></details>
-        <details><summary>Posso prenotare online?<span aria-hidden="true">＋</span></summary><p>Puoi consultare il sistema di prenotazione esistente. Le disponibilità e le modalità mostrate lì sono gestite dal centro.</p></details>
+        <details><summary>Qual &egrave; il prezzo finale?<span class="faq-toggle" aria-hidden="true"></span></summary><p>Il prezzo non &egrave; pubblicato nella pagina ufficiale della promozione. Chiedilo al centro chiamando o scrivendo su WhatsApp.</p></details>
+        <details><summary>La promozione &egrave; ancora attiva?<span class="faq-toggle" aria-hidden="true"></span></summary><p>La pagina del centro riporta la scadenza del 31 ottobre senza indicare l'anno. Contatta il centro per confermare la validit&agrave; attuale e le condizioni.</p></details>
+        <details><summary>Come posso prenotare?<span class="faq-toggle" aria-hidden="true"></span></summary><p>Puoi chiamare il centro, scrivere su WhatsApp o consultare il <a data-booking href="https://app.b-vanity.com/booking/66a9f1733b8a283e4c4e7733/home" target="_blank" rel="noopener noreferrer">portale di prenotazione B-Vanity</a>.</p></details>
       </div>
     </section>
 
-    <section class="final-cta" id="contatti" aria-labelledby="final-title">
-      <h2 id="final-title">Il tuo viso.<br>Merita tempo.</h2>
-        <p>Chiedi al centro se la proposta è attiva e come concordare il trattamento più adatto a te.</p>
-      <a class="button button-light" data-contact data-contact-label="true" href="tel:+390321629807">Chiama il centro <span aria-hidden="true">↗</span></a>
-      <a class="booking-link" data-booking href="https://app.b-vanity.com/booking/66a9f1733b8a283e4c4e7733/home" target="_blank" rel="noopener noreferrer">Preferisci? Consulta le prenotazioni online <span aria-hidden="true">↗</span></a>
-      <p class="demo-disclosure">Demo non ufficiale · Proposta di Michele Modica<br>Offerta e condizioni esemplificative, da confermare con il centro.<br>Le immagini editoriali non rappresentano il centro.</p>
+    <section class="final-cta" id="prenota" aria-labelledby="final-title">
+      <div class="contact-section-inner container">
+        <div class="final-cta-copy">
+          <h2 id="final-title">Parliamone.</h2>
+          <p>Chiedici prezzo, validit&agrave; della promozione e disponibilit&agrave;. Scegli il contatto che preferisci.</p>
+          <div class="contact-actions final-contact-actions" data-final-actions>
+            <a class="button button-primary" data-whatsapp href="https://wa.me/393806941236" target="_blank" rel="noopener noreferrer">Scrivi su WhatsApp</a>
+            <a class="button button-secondary" data-call href="tel:+390321629807">Chiama il centro</a>
+          </div>
+          <p class="booking-alternative">Preferisci prenotare online? <a data-booking href="https://app.b-vanity.com/booking/66a9f1733b8a283e4c4e7733/home" target="_blank" rel="noopener noreferrer">Apri B-Vanity</a>.</p>
+        </div>
+        <div class="visit-details">
+          <h3>Vieni a trovarci.</h3>
+          <address><span data-business>Centro Estetico Linea Pi&ugrave;</span><br><span data-address>Via Dei Mille, 7</span><br>28100 <span data-location>Novara</span></address>
+          <p>Luned&igrave; &ndash; sabato<br>09:00 &ndash; 20:00</p>
+          <a class="directions-link" href="https://www.google.com/maps/search/?api=1&amp;query=Centro+Estetico+Linea+Piu+Via+dei+Mille+7+Novara" target="_blank" rel="noopener noreferrer">Indicazioni stradali <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <a class="footer-brand" data-wordmark href="#inizio"><span data-brand>LINEA PIÙ</span><small>Centro estetico <i>·</i> <span data-location>Novara</span></small></a>
-    <div class="footer-contact"><span><span data-address>Via Dei Mille, 7</span> · <span data-location>Novara</span></span><a data-phone href="tel:+390321629807">+39 0321 62 98 07</a><a data-email href="mailto:esteticalineapiunovara@gmail.com">esteticalineapiunovara@gmail.com</a></div>
-    <p>© <span data-year>2026</span> <span data-business>Centro Estetico Linea Più</span></p>
+  <footer class="site-footer container">
+    <a class="footer-brand" data-wordmark href="#inizio">linea pi&ugrave;</a>
+    <div class="footer-contact"><a data-phone href="tel:+390321629807">+39 0321 62 98 07</a><a data-email href="mailto:esteticalineapiunovara@gmail.com">esteticalineapiunovara@gmail.com</a></div>
+    <div class="footer-bottom"><p>Demo di proposta grafica &middot; &copy; <span data-year>2026</span> <span data-business>Centro Estetico Linea Pi&ugrave;</span> &middot; P.I. 01604120053</p><a href="https://www.centroesteticolineapiu.it/" target="_blank" rel="noopener noreferrer">Sito ufficiale del centro</a></div>
   </footer>
-  <a class="sticky-cta" data-sticky-cta data-contact data-contact-label="true" href="tel:+390321629807" aria-hidden="true" tabindex="-1"><span>−<span data-discount>20</span>% <small>Trattamenti viso</small></span><b>Chiama il centro <i aria-hidden="true">↗</i></b></a>
+  <div class="sticky-cta" data-sticky-cta aria-hidden="true" inert>
+    <a class="sticky-call" data-call href="tel:+390321629807">Chiama</a>
+    <a class="sticky-whatsapp" data-whatsapp href="https://wa.me/393806941236" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </div>
 </body>
 </html>
